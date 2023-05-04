@@ -1,9 +1,9 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
-<p>
-    <h3><a class="summary-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    <a class="summary" href="{{ .RelPermalink }}">
+<p class="posts-base" >
+    <h3><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <a class="post-desc" href="{{ .RelPermalink }}">
         <p>{{ .Summary }}</p>
     </a>
 </p>
