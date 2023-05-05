@@ -17,5 +17,5 @@ contra-tempos.
 A página segue um regime de conteúdo aberto, logo, qualquer pessoa que se sinta confortável tem total liberdade de contribuir com a página e 
 adicionar os próprios posts e isso tudo sem ter que mexer em código algum. 
 
-Então... caso tenha ficado curioso, entre nesse link e entenda melhor. 
+Então... caso tenha ficado curioso, [clique aqui e entenda melhor.](https://github.com/Anthhon/focoNoEstudo) 
 Prometo que é mais rápido e simples do que parece haha
