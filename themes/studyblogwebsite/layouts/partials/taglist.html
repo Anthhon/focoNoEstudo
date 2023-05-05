@@ -1,9 +1,7 @@
-<div class="taglist-base">
+<span class="taglist-base">
 {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
   {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-	<a href={{ .RelPermalink }} title="Posts com conteúdos similares">
-		<p>{{$name}}</p>
-	</a>
+	<a href={{ .RelPermalink }} title="Posts com conteúdos similares">{{$name}}</a>
   {{end}}
 {{end}}
-</div>
+</span>
