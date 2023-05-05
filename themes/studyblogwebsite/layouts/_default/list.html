@@ -3,8 +3,8 @@
 	<h1>{{ .Title }}</h1>
 	{{ range .Pages.ByPublishDate.Reverse }}
 	<section class="post-base" >
-	<h3><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-	<a class="post-desc" href="{{ .RelPermalink }}">{{ .Summary }}</a>
+	<h3><a class="post-title" href="/focoNoEstudo/{{ .RelPermalink }}">{{ .Title }}</a></h3>
+	<a class="post-desc" href="/focoNoEstudo/{{ .RelPermalink }}">{{ .Summary }}</a>
 	</section>
 	{{ end }}
 	</article>
