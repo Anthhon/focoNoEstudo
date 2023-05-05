@@ -1,4 +1,4 @@
-baseURL = 'http://foconoestudo.org/'
+baseURL = ''
 languageCode = 'pt-br'
 title = 'Foco no estudo'
 theme = 'studyblogwebsite'
