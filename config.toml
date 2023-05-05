@@ -2,3 +2,5 @@ baseURL = 'http://foconoestudo.org/'
 languageCode = 'pt-br'
 title = 'Foco no estudo'
 theme = 'studyblogwebsite'
+
+summaryLength = 52

@@ -3,8 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <section class="content-base">
+        <section class="content-base wrap">
 	{{ .Content }}
+        {{- partial "taglist.html" . -}}
         {{- block "main" . }}
 	{{- end }}
         </section>
