@@ -1,7 +1,7 @@
 ---
 title: "Ondulatoria"
 date: 2023-05-03T20:22:53-03:00
-tags: ['física']
+tags: ['Física']
 ---
 
 # Visão geral
