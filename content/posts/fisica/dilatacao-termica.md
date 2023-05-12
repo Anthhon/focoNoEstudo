@@ -4,13 +4,21 @@ date: 2023-05-10T20:17:16-03:00
 tags: ['Física']
 ---
 
+![Capa](https://s2.static.brasilescola.uol.com.br/be/2023/01/trilhos-dilatacao.jpg)
+
 # Introdução
 
-Chamamos de dilatação térmica o **fenômeno de mudança nas dimensões de um objeto ao alterarmos a temperatura.** 
-Sendo possível que esse processo ocorra nos 3 estados da matérias, com corpos sólidos, líquidos e até gasosos.
+Você já se perguntou sobre as pequenas brechas que existem nos trilhos de trem? Esses espaços não estão ali por acaso! 
+Eles são **necessários para compensar o fenômeno da dilatação térmica,** que é a mudança nas dimensões de um objeto quando 
+há uma alteração na temperatura.
 
-Como visto no [outro artigo sobre temperatura](/posts/fisica/escalas-de-temperatura/), quando aumentamos a temperatura de um corpo, os átomos que o 
-compõem começam a vibrar, o que aumenta a distância entre os átomos, logo altera a dimensão do objeto.
+**Os trilhos de trem são feitos de metal e, quando expostos a altas temperaturas, tendem a se expandir.** Se não houvesse 
+essas pequenas brechas, os trilhos poderiam ficar deformados, o que poderia levar a acidentes graves. Portanto, as 
+brechas nos trilhos são uma medida de segurança importante para garantir a integridade do sistema ferroviário.
+
+Você pode estar se perguntando: *"Mas como assim o trilho se expande?"*, [como visto neste 
+outro artigo](/posts/fisica/escalas-de-temperatura/), quando aumentamos a temperatura de um corpo os átomos que o compõem 
+começam a vibrar, o que **aumenta a distância entre os átomos,** alterando assim as dimensões do objeto.
 
 # Dilatação térmica
 
@@ -22,7 +30,7 @@ aprender as fórmulas de dilatação térmica para cada um dos tipos existentes,
 - Dilatação volumétrica  (Objetos de 3 dimensões como um cubo de ferro)
 - Dilatação nos líquidos (Meio óbvio eu acho...)
 
-Normalmente, se aprende as fórmulas de cada um dos tipos de dilatação separadamente, mas tendo em vista que, as fórmulas são 
+Normalmente, se aprende as fórmulas de cada um dos tipos de dilatação separadamente, mas tendo em vista que as fórmulas são 
 extremamente (senão basicamente iguais) para todos, vou resumir todas em apenas 1 fórmula que seja possível de se utilizar em todos. 
 Portanto, utilizaremos a seguinte fórmula:
 

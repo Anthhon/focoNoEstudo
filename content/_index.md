@@ -5,17 +5,16 @@ date: 2023-05-03T21:37:37-03:00
 
 # Nosso objetivo
 
-Essa página tem como objetivo ser um guia para os estudantes que querem acessar conteúdo de qualidade de maneira rápida e grátis, 
-infelizmente grande parte do conteúdo na internet foi capitalizado de maneira excessiva, o que torna difícil estudar em maioria dos sites, 
-que acabam danificando a experiência do estudante enchendo ele de anúncios e botões brilhantes inúteis.
+Nosso objetivo é ser o guia perfeito para estudantes que buscam conteúdo de qualidade, rápido e gratuito. 
+Infelizmente, muitos sites na internet comercializam seus conteúdos e tornam a experiência de estudo muito 
+difícil, cheia de anúncios e distrações. Mas, aqui, nós fornecemos **conteúdo direto e simples,** sem 
+complicações, para que você possa estudar sem problemas.
 
-Nosso objetivo aqui é oferecer um conteúdo direto ao ponto de maneira simples, para que você e muitas outras pessoas possam estudar sem ter muitos 
-contra-tempos.
+Estamos aqui para ajudá-lo em sua jornada de estudos e prometemos **tornar tudo mais fácil e rápido para você.** 
+Então, não hesite em usar nossos recursos para se preparar para o sucesso. Acesse uma das tags exibidas abaixo 
+e aproveite o conteúdo!
 
 # Contribua com conteúdo
 
-A página segue um regime de conteúdo aberto, logo, qualquer pessoa que se sinta confortável tem total liberdade de contribuir com a página e 
-adicionar os próprios posts e isso tudo sem ter que mexer em código algum. 
-
-Então... caso tenha ficado curioso, [clique aqui e entenda melhor.](https://github.com/Anthhon/focoNoEstudo) 
-Prometo que é mais rápido e simples do que parece haha
+Além disso, **nossa página é aberta a todos os interessados em contribuir com conteúdo de qualidade.** 
+É fácil e não requer conhecimento em programação. [Clique aqui para saber mais sobre como participar.](https://github.com/Anthhon/focoNoEstudo)

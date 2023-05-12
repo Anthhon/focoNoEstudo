@@ -2,7 +2,10 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
+tags: ['']
 ---
+
+![Capa]()
 
 # Article title
 

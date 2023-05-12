@@ -1,9 +1,9 @@
 ---
-title: ""
 date: 2023-05-03T21:48:37-03:00
 ---
 
 # O que é essa aba
 
-Logo abaixo é possível ver listado todos os posts disponíveis no nosso site por categoria. 
-Basta clicar na categoria desejada e usar a barra de pesquisa para achar o conteúdo que você procura.
+Nessa aba de postagens, você encontrará uma lista completa de **todos os artigos publicados em nosso site.** 
+Você pode também **filtrar os resultados por meio da barra de tags,** que inclui todas as categorias dos posts
+já feitos como biologia, matemática, português, entre outras opções.
