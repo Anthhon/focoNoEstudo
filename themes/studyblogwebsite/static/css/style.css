@@ -13,8 +13,8 @@ font-family: 'Ubuntu', sans-serif;
 
   --color: #ffff33;
 
-  --shadow-color: #02020215;
-  --shadow-second-color: #02020225;
+  --shadow-color: #02020205;
+  --shadow-second-color: #02020230;
   --shadow-third-color: #02020250;
 }
 
@@ -45,12 +45,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-		display: block;
-		height: 40vh;
-		margin: 0 auto;
-		max-width: 100%;
-		margin-top: 2em;
-		border-radius: 0.4em;
+	display: block;
+	height: 40vh;
+	margin: 0 auto;
+	max-width: 100%;
+	margin-top: 2em;
+	border-radius: 0.4em;
 }
 
 a {
@@ -66,24 +66,24 @@ p, ul, pre {
 }
 
 strong {
-		padding: 0.1em 0.1em;
-		border-radius: 0.2em;
+	padding: 0.1em 0.1em;
+	border-radius: 0.2em;
 
-		font-weight: 500;
-		background-color: var(--color);
+	font-weight: 500;
+	background-color: var(--color);
 }
 
 pre {
-		padding: 0.5em;
-		background-color: var(--white);
+	padding: 0.5em;
+	background-color: var(--white);
 
-		border-radius: 0.25em;
-		text-align: center;
+	text-align: center;
+	border-radius: 0.25em;
 }
 
 footer {
+	margin-top: 1em;
 	text-align: center;
-    margin-top: 1em;
 }
 
 /* Correct icons displacement */
@@ -122,20 +122,24 @@ ion-icon {
 }
 
 .tag-link {
-	margin: 0 0.6em;
+	margin: 0 0;
 	padding: 0.65em 1.2em;
 
+	opacity: 0.9;
 	color: var(--black);
 	text-decoration: none;
 
 	border-radius: 0.25em;
 	background: var(--white);
-	box-shadow: 10px 12px 24px var(--shadow-color);
+	box-shadow: 0 4px 6px var(--shadow-color);
 
-	transform: translateY(3px);
+	transform: translateY(0.25em);
 }
 
 .tag-link:hover {
+	background: var(--color);
+
+	opacity: 1;
 	transform: translateY(0);
-	box-shadow: 6px 8px 16px var(--shadow-color);
+	box-shadow: 0 6px 12px var(--shadow-color);
 }
