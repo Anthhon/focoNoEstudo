@@ -1,0 +1,75 @@
+<script>
+// Função para criar ou atualizar o cookie
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+// Função para ler o valor do cookie
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
+// Função para alternar entre os modos de tema
+function toggleTheme() {
+  var iconLight = document.querySelector('.light-mode-icon');
+  var iconNight = document.querySelector('.night-mode-icon');
+  var root = document.querySelector(':root');
+  
+  // Verificar se o cookie existe e qual é o seu valor
+  var modoEscuroCookie = getCookie('modo_escuro');
+  if (modoEscuroCookie && modoEscuroCookie === 'true') {
+    // Modo escuro
+    root.style.setProperty('--white', '#1e1e1e');
+    root.style.setProperty('--gray', '#181818');
+    root.style.setProperty('--black', '#f2f2f2');
+    root.style.setProperty('--color', '#ffff33');
+    
+    // Exibir ícone do modo escuro e ocultar ícone do modo claro
+    iconLight.style.display = 'none';
+    iconNight.style.display = 'flex';
+  } else {
+    // Modo claro (padrão)
+    root.style.setProperty('--white', '#f2f2f2');
+    root.style.setProperty('--gray', '#eaeaea');
+    root.style.setProperty('--black', '#1a1a1a');
+    root.style.setProperty('--color', '#ffff33');
+    
+    // Exibir ícone do modo claro e ocultar ícone do modo escuro
+    iconLight.style.display = 'flex';
+    iconNight.style.display = 'none';
+  }
+}
+
+// Verificar a preferência do usuário ao carregar a página
+window.onload = toggleTheme;
+
+// Função para alternar o tema quando o botão é clicado
+var toggleButton = document.querySelector('button');
+toggleButton.addEventListener('click', function() {
+  // Verificar o estado atual do cookie
+  var modoEscuroCookie = getCookie('modo_escuro');
+  if (modoEscuroCookie && modoEscuroCookie === 'true') {
+    // O cookie existe e está definido como verdadeiro, então definimos como falso
+    setCookie('modo_escuro', 'false', 365);
+  } else {
+    // O cookie não existe ou está definido como falso, então definimos como verdadeiro
+    setCookie('modo_escuro', 'true', 365);
+  }
+  
+  // Alternar o tema
+  toggleTheme();
+});
+</script>
