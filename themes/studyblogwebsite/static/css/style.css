@@ -82,9 +82,10 @@ strong {
 
 pre {
 	padding: 0.5em;
-	background-color: var(--white);
+	background: var(--gray);
 
 	text-align: center;
+	font-size: large;
 	border-radius: 0.25em;
 }
 
