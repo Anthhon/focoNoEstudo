@@ -32,9 +32,9 @@ function toggleTheme() {
   var modoEscuroCookie = getCookie('modo_escuro');
   if (modoEscuroCookie && modoEscuroCookie === 'true') {
     // Modo escuro
-    root.style.setProperty('--white', '#1e1e1e');
-    root.style.setProperty('--gray', '#181818');
-    root.style.setProperty('--black', '#f2f2f2');
+    root.style.setProperty('--white', '#1a1a1a');
+    root.style.setProperty('--gray', '#121212');
+    root.style.setProperty('--black', '#ffffff');
     root.style.setProperty('--color', '#ffff33');
     
     // Exibir ícone do modo escuro e ocultar ícone do modo claro
@@ -42,7 +42,7 @@ function toggleTheme() {
     iconNight.style.display = 'flex';
   } else {
     // Modo claro (padrão)
-    root.style.setProperty('--white', '#f2f2f2');
+    root.style.setProperty('--white', '#ffffff');
     root.style.setProperty('--gray', '#eaeaea');
     root.style.setProperty('--black', '#1a1a1a');
     root.style.setProperty('--color', '#ffff33');
