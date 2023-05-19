@@ -101,3 +101,14 @@ E por fim, todas essas **moléculas de hidrogênio ionizadas positivamente são 
 NADH+H+ e FADH2** para as cristas mitocôndriais, onde parte do hidrogênio tem seus íons H+ retirados e 
 utilizados para a produção de energia. Enquanto isso, **as moléculas de hidrogênio restantes são 
 transformadas em água (H2O)** após reagir com o oxigênio.
+
+# Exercícios
+
+A fim de ter certeza que você entendeu os assuntos abordados nessa postagem, **tente responder as questões 
+abaixo sem o auxílio da internet,** faça um esforço e tente lembrar de acordo com tudo que você leu aqui.
+
+- Explique o papel da glicólise na respiração celular e descreva as principais etapas desse processo: (Fácil)
+- Como ocorre a produção de ATP durante a respiração celular? Explique a importância do ATP para as 
+atividades celulares: (Médio)
+- Explique de forma detalhada o processo da cadeia transportadora de elétrons durante a respiração 
+celular, incluindo o papel das moléculas de NADH e FADH2. Como ocorre a produção de ATP nessa etapa? (Difícil)
