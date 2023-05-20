@@ -193,8 +193,11 @@ ion-icon:not(button > ion-icon) {
 .list-item:hover a:not(.header-link):not(.tag-link){
 	opacity: 1;
 }
-
 .list-item:hover .post-title {
 	text-decoration: underline;
+}
+
+.list-item:hover {
+	padding-left: 0.35em;
 }
 
