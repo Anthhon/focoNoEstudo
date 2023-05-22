@@ -198,6 +198,6 @@ ion-icon:not(button > ion-icon) {
 }
 
 .list-item:hover {
-	padding-left: 0.35em;
+	transform: translateX(3px);
 }
 
