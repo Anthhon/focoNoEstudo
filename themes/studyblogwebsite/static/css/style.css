@@ -50,6 +50,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 1em;
 }
 
+h2 {
+	border-left: 0.12em solid var(--black);
+	font-weight: 400;
+
+	opacity: 0.95;
+	padding-left: 0.4em;
+}
+
 img {
 	display: block;
 	height: 15em;
