@@ -54,9 +54,11 @@ img {
 	display: block;
 	height: 15em;
 	width: auto;
+
 	margin: 0 auto;
 	margin-top: 2em;
 	max-width: 100%;
+
 	border-radius: 0.4em;
 }
 
@@ -69,7 +71,7 @@ a:hover:not(.header-link):not(.tag-link){
 	opacity: 1;
 }
 
-p, ul, pre {
+p, ul, ol, pre {
 	margin-top: 0.5em;
 }
 
@@ -126,6 +128,20 @@ footer {
 	text-align: center;
 }
 
+@media only screen and (max-width: 900px) {
+	body{
+		margin: 1em 10vw;
+	}
+	img {
+		width: 100vw;
+		height: auto;
+	}
+	code {
+		font-size: 0.75em;
+		font-weight: 800;
+	}
+}
+
 /* Correct icons displacement */
 ion-icon:not(button > ion-icon) {
 	vertical-align: middle;
@@ -157,6 +173,7 @@ ion-icon:not(button > ion-icon) {
 
 .taglist-base {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	margin: 1em;
 }
@@ -183,6 +200,21 @@ ion-icon:not(button > ion-icon) {
 	opacity: 1;
 	transform: translateY(0);
 	box-shadow: 0 6px 12px var(--shadow-color);
+}
+
+@media only screen and (max-width: 900px) {
+	.taglist-base {
+		justify-content: space-around;
+		margin: 1em 0;
+	}
+	.tag-link {
+		font-size: large;
+		text-align: center;
+
+		margin: 0.2em 0;
+		padding: 0.75em 2.4em;
+		width: 100vw;
+	}
 }
 
 .list-item a{
