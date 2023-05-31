@@ -2,7 +2,6 @@
 title: "Composicão e Estrutura do Dna e Rna"
 date: 2023-05-25T18:44:19-03:00
 tags: ['Biologia']
-draft: true
 ---
 
 # Visão Geral
